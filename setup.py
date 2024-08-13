@@ -14,13 +14,13 @@ with open(os.path.join(here, "pytube", "version.py")) as fp:
     exec(fp.read())
 
 setup(
-    name="pytube",
+    name="pytubefixaugust24",
     version=__version__,  # noqa: F821
-    author="Ronnie Ghose, Taylor Fox Dahlin, Nick Ficano",
+    author="Vicintici",
     author_email="hey@pytube.io",
     packages=["pytube", "pytube.contrib"],
     package_data={"": ["LICENSE"],},
-    url="https://github.com/pytube/pytube",
+    url="https://github.com/Victiniiiii/pytubefixaugust24",
     license="The Unlicense (Unlicense)",
     entry_points={
         "console_scripts": [
